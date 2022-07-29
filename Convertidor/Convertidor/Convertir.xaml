@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Convertidor.Convertir">
+    <Grid BackgroundColor="LimeGreen">
+        <StackLayout VerticalOptions="Center" Margin="20" Spacing="30">
+            <Image Source="https://i.ibb.co/cQr9jFX/salve-el-planeta.png" />
+
+            <Frame HasShadow="False" CornerRadius="10">
+                <Entry Keyboard="Numeric" 
+                       Placeholder="centimetros (cm)"
+                       TextColor="Black"
+                       PlaceholderColor="Black"
+                       FontSize="Large"
+                       x:Name="txtcm"/>
+            </Frame>
+            <Button Text="Calcular"
+                    CornerRadius="10"
+                    FontSize="Large"
+                    FontAttributes="Bold" 
+                    Margin="0,20,0,0"
+                    TextTransform="None"
+                    BackgroundColor="Blue"
+                    TextColor="White"   
+                    x:Name="btnCalcular"
+                    Clicked="btnCalcular_Clicked"
+                    />
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Resultado:"
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"/>
+                <Label Text="0.0"
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"
+                       x:Name="reslbl"/>
+                       
+            </StackLayout>
+            <Button Text="Regresar" 
+                    TextTransform="None" 
+                    
+                    FontAttributes="Bold"
+                    BackgroundColor="White"
+                    HorizontalOptions="Center"
+                    CornerRadius="10"
+                    x:Name="btnVolver"
+                    Clicked="btnVolver_Clicked"
+                />
+
+
+        </StackLayout>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Convertidor.MainPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <StackLayout Orientation="Vertical" BackgroundColor="#cca300">
+        <Label Text="Convertidor" 
+               FontSize="40"
+               FontAttributes="Bold"
+               Margin="0,20,0,0"
+               HorizontalOptions="CenterAndExpand"/>
+        <Frame VerticalOptions="FillAndExpand" 
+               Margin="10,10,10,10"
+               CornerRadius="20"
+               HasShadow="False">
+            <StackLayout VerticalOptions="Center" Spacing="15">
+                <Image Source="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/adventure-movie-poster-template-design-7b13ea2ab6f64c1ec9e1bb473f345547_screen.jpg?ts=1636999411" />
+                <Label Text="cm a m"
+                       FontSize="40"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+                <Button Text="Empezar"
+                        BackgroundColor="Silver"
+                        CornerRadius="10" Clicked="Button_Empezar_Clicked"/>
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+
+</ContentPage>
