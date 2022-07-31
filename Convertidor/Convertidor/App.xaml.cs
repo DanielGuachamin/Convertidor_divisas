@@ -14,7 +14,6 @@ namespace Convertidor
             InitializeComponent();
 
              MainPage = new NavigationPage(new MainPage());
-            //MainPage = new Convertir();
             
         }
 

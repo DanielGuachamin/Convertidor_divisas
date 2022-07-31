@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Convertidor.Convertir">
+             x:Class="Convertidor.CanadienseLibra">
     <Grid BackgroundColor="LimeGreen">
         <StackLayout VerticalOptions="Center" Margin="20" Spacing="30">
             <Image Source="https://www.andbank.es/observatoriodelinversor/wp-content/uploads/2013/12/euro-dolar.png" />
 
             <Frame HasShadow="False" CornerRadius="10">
                 <Entry Keyboard="Numeric" 
-                       Placeholder="Euros (€)"
+                       Placeholder="Libra esterlina (£)"
                        TextColor="Black"
                        PlaceholderColor="Black"
                        FontSize="Large"
