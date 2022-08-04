@@ -63,5 +63,5 @@ Se ha tomado como refencia el siguiente [Sitio Web](https://www.xe.com/es/) para
     <img src="captures/ejemplo.png" alt="EjemploConversion" width="222" height="463">
 </div>
 
-[XamarinForms.com]: https://img.shields.io/badge/Xamarin-800080?style=for-the-badge&logo=ionic&logoColor=white
+[XamarinForms.com]: https://img.shields.io/badge/Xamarin-800080?style=for-the-badge&logo=xamarin&logoColor=white
 [Xamarin-url]: https://docs.microsoft.com/en-us/xamarin/xamarin-forms/
