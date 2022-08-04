@@ -16,7 +16,7 @@ namespace Convertidor
         }
         public void Calcular() {
             euro = Convert.ToDouble(txt.Text);
-            dolar = euro * 1.02255;
+            dolar = Math.Round((euro * 1.02255), 2);
             reslbl.Text = dolar.ToString() +" $";
         }
 

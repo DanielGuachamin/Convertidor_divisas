@@ -22,7 +22,7 @@ namespace Convertidor
         public void Calcular()
         {
             rubloRuso = Convert.ToDouble(txt.Text);
-            francoSuizo = rubloRuso * 0.0153243;
+            francoSuizo = Math.Round((rubloRuso * 0.0153243), 2);
             reslbl.Text = francoSuizo.ToString() + " Fr";
         }
 

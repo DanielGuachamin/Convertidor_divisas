@@ -22,7 +22,7 @@ namespace Convertidor
         public void Calcular()
         {
             hongKong = Convert.ToDouble(txt.Text);
-            yuanChino = hongKong * 0.859070;
+            yuanChino = Math.Round((hongKong * 0.86023809), 2);
             reslbl.Text = yuanChino.ToString() + " ¥";
         }
 

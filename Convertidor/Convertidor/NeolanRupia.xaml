@@ -2,9 +2,18 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Convertidor.NeolanRupia">
-    <Grid BackgroundColor="LimeGreen">
+    <Grid >
+        <Grid.Background>
+            <!-- StartPoint defaults to (0,0) -->
+            <LinearGradientBrush EndPoint="0,1">
+                <GradientStop Color="#BE93C5"
+                          Offset="0.1" />
+                <GradientStop Color="#7BC6CC"
+                          Offset="1.0" />
+            </LinearGradientBrush>
+        </Grid.Background>
         <StackLayout VerticalOptions="Center" Margin="20" Spacing="30">
-            <Image Source="https://www.andbank.es/observatoriodelinversor/wp-content/uploads/2013/12/euro-dolar.png" />
+            <Image Source="NZDaINR.jpeg" />
 
             <Frame HasShadow="False" CornerRadius="10">
                 <Entry Keyboard="Numeric" 

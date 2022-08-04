@@ -22,7 +22,7 @@ namespace Convertidor
         public void Calcular()
         {
             dolarAustr = Convert.ToDouble(txt.Text);
-            yenes = dolarAustr * 93.1972;
+            yenes = Math.Round((dolarAustr * 93.034086), 2);
             reslbl.Text = yenes.ToString() + " ¥";
         }
 

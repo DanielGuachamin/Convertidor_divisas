@@ -22,7 +22,7 @@ namespace Convertidor
         public void Calcular()
         {
             rupiaIndia = Convert.ToDouble(txt.Text);
-            dolarNeoze = rupiaIndia * 0.0201695;
+            dolarNeoze = Math.Round((rupiaIndia * 0.0201695), 2);
             reslbl.Text = dolarNeoze.ToString() + " NZ$";
         }
 

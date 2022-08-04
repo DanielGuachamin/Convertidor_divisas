@@ -72,6 +72,10 @@
                         BackgroundColor="Silver"
                         CornerRadius="10" Clicked="Button_HongK_Yuan"/>
                     <BoxView HorizontalOptions="FillAndExpand" HeightRequest="2" Color="#47910A"/>
+                    <Label Text="Integrantes: Guachamín Daniel, León Jeremy, Yazán Cindy"
+                           TextColor="Black"
+                           HorizontalOptions="Center"
+                           FontSize="20"/>
                 </StackLayout>
             </Frame>
         </ScrollView>

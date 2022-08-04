@@ -22,7 +22,7 @@ namespace Convertidor
         public void Calcular()
         {
             libraEster = Convert.ToDouble(txt.Text);
-            dolarCanad = libraEster * 1.55893;
+            dolarCanad = Math.Round((libraEster * 0.640728), 2);
             reslbl.Text = dolarCanad.ToString() + " $";
         }
 
