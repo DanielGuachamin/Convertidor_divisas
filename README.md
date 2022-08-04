@@ -63,5 +63,9 @@ Se ha tomado como refencia el siguiente [Sitio Web](https://www.xe.com/es/) para
     <img src="captures/ejemplo.png" alt="EjemploConversion" width="222" height="463">
 </div>
 
+* APK Generada
+
+A continuación, se comparte el enlace donde es posible descargar el [APK](https://epnecuador-my.sharepoint.com/:u:/g/personal/guillermo_guachamin_epn_edu_ec/EYRLb5cmHWtOk1V1FI0CmW8BP9EIc4GvFvW6JwgFNopGTg?e=L20V0N)
+
 [XamarinForms.com]: https://img.shields.io/badge/Xamarin-800080?style=for-the-badge&logo=xamarin&logoColor=white
 [Xamarin-url]: https://docs.microsoft.com/en-us/xamarin/xamarin-forms/
